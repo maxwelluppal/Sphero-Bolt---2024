@@ -14,7 +14,7 @@ async function startProgram() {
 	setSpeed(0);
 }
 */
-
+/*
 async function startProgram() {
 	setMainLed({ r: 255, g: 255, b: 255 });
 	await speak("Hello Ethan", true);
@@ -28,3 +28,14 @@ async function startProgram() {
 	}
 	
 }
+*/
+async function startProgram() {
+	setMainLed({ r: 200, g: 150, b: 100 });
+	await speak("Hello Ethan Vanlandegent you must be eliminated");
+	for (var NumberTurn = 0; NumberTurn < 4; NumberTurn++) {
+		await await Sound.ScienceFiction.Blaster.play(true);
+		await roll((getHeading() + 359), 120, 1);
+		await delay(1);
+	}
+}	
+
