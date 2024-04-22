@@ -21,7 +21,7 @@ async function startProgram() {
 	await delay(1);
 	for (var NumberTurn = 0; NumberTurn < 4; NumberTurn++) {
 		setMainLed(getRandomColor());
-		await Sound.Game.Coin.play(true);
+		await await Sound.ScienceFiction.Blaster.play(true);
 		await roll((getHeading() + 90), 90, .5);
 		await delay(1);
 		
