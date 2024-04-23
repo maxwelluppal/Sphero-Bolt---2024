@@ -13,6 +13,7 @@ async function startProgram() {
 	await roll((getHeading() - 45), 120, .5);
 	await roll((getHeading() - 90), 120, .75);
 	await roll((getHeading() - 90), 120, .5);
-	await roll((getHeading() - 45), 120, .9);
+	await roll((getHeading() - 45), 120, 1.25);
 	await roll((getHeading() + 45), 120, .3);
+	await roll((getHeading() + 45), 120, 1.25);
 }
