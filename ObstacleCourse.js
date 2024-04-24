@@ -11,4 +11,7 @@ async function startProgram() {
 	//Ethan VanLandegent
 	await delay(1);
 	await roll((getHeading() - 35), 120, 1.15);
+	//Maxwell Uppal
+	await delay(1);
+	await roll((getHeading() - 90), 120, 1.2);
 }
