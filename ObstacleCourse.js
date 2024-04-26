@@ -7,7 +7,7 @@
 
 async function startProgram() {
 	//Maxwell Uppal
-	await roll((getHeading() + 35), 120, 1.57);
+	await roll((getHeading() + 35), 120, 1.52);
 	//Ethan VanLandegent
 	await delay(1);
 	await roll((getHeading() - 35), 120, 1.15);
@@ -19,6 +19,13 @@ async function startProgram() {
 	await roll((getHeading() - 90), 120, 0.7);
 	await roll((getHeading() - 90), 120, 0.3);
 	await roll((getHeading() - 45), 120, 1.5);
+	// Maxwell Uppal - PC #12 - 5th Checkpoint
+	setMainLed({ r: 160, g: 32, b: 240 });
+	await delay(1);
+	await roll((getHeading() - 45), 120, .5);
+	await roll((getHeading() - 90), 120, 1.2);
+	await roll((getHeading() - 140), 120, 2);
+	
 	
 	
 }
