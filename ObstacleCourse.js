@@ -1,9 +1,9 @@
-// Programmer: Max Uppal
-// Team Member: Ethan VanLandegent
+// Programmer: Ethan VanLandegent
+// Team Member: Max Uppal
 // Bolt ID: SB-EC76
 // Date: 4-24-24
-// Program: Obstacle Course - Sandbox
-// Program URL: https://edu.sphero.com/program/16752514/edit
+// Program: My Obstacle Course - Sandbox
+// Program URL: https://edu.sphero.com/program/16752539/edit
 
 async function startProgram() {
 	//Maxwell Uppal
@@ -25,7 +25,9 @@ async function startProgram() {
 	await roll((getHeading() - 45), 120, .5);
 	await roll((getHeading() - 90), 120, 1.2);
 	await roll((getHeading() - 140), 120, 2);
-	
-	
-	
+	//Ethan VanLandegent - PC #13 - 6th Checkpoint Final
+	setMainLed({ r: 255, g: 255, b: 0 });
+	await delay(1);
+	await roll((getHeading() + 45), 120, 3);
+	await roll((getHeading() + 90), 120, 1.125);
 }
