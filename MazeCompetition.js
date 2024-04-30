@@ -17,6 +17,8 @@ async function startProgram() {
 
 
 	// Programmer:               - Sound One Checkpoint Commit - Date:
+	await roll((getHeading() + 90), 50, 2.4);
+	await Sound.ScienceFiction.Blaster.play(true);
 	
 
 
