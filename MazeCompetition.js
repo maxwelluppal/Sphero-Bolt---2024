@@ -16,17 +16,18 @@ async function startProgram() {
 	setMainLed({ r: 0, g: 0, b: 255 });
 
 
-	// Programmer:               - Sound One Checkpoint Commit - Date:
+	// Programmer: Maxwell Uppal - Sound One Checkpoint Commit - Date:4/30/24
 	await roll((getHeading() + 90), 50, 2.4);
 	await Sound.ScienceFiction.Blaster.play(true);
 	
 
 
-	// Programmer:               - Red LED Checkpoint Commit - Date: 
+	// Programmer: Ethan Vanlandegent - Red LED Checkpoint Commit - Date:5/1/24 
+	await roll((getHeading() + 90), 50, 1.92);
+	await roll((getHeading() + 45), 50, 1.4);
 
 
-
-	// Programmer:               - Sound Two Checkpoint Commit - Date: 
+	// Programmer: Maxwell Uppal - Sound Two Checkpoint Commit - Date:5/1/24
 
 
 
