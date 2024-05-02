@@ -34,7 +34,7 @@ async function startProgram() {
 
 
 	// Programmer: Maxwell Uppal - Sound Two Checkpoint Commit - Date:5/1/24
-	await roll((getHeading() - 90), 50, .9);
+	await roll((getHeading() - 90), 50, .75);
 	await delay(1)
 	await roll((getHeading() - 90), 50, 1.4);
 	await delay(1)
@@ -54,10 +54,13 @@ async function startProgram() {
 	await delay(1)
 	await roll((getHeading() - 90), 50, 1.05);
 	await delay(1)
-	await roll((getHeading() - 45), 50, 1.05);
+	await roll((getHeading() - 45), 50, 1.2);
 	await delay(1)
 	setMainLed({ r: 128, g: 0, b: 128 });
 	await Sound.ScienceFiction.Blaster.play(true);
-	// Programmer:               - Finish Text & Audio Commit - Date: 
+	// Programmer: Ethan Vanlandegent - Finish Text & Audio Commit - Date:5/2/24
+	await roll((getHeading() + 45), 50, 3);
+	await scrollMatrixText('Finish', { r: 66, g: 56, b: 255 }, 30, true)
+	await speak("Finish", true);
 
 }
