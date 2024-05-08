@@ -1,5 +1,5 @@
-// Programmer: Ethan VanLandegent
-// Team Member: Max Uppal
+// Programmer: Maxwell Uppal
+// Team Member: Ethan Vanlandegent
 // Bolt ID: SB-EC76
 // Date: 4-30-24
 // Program: Maze Competition 
