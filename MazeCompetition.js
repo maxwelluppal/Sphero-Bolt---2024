@@ -31,7 +31,7 @@ async function startProgram() {
 	await delay(1)
 	await roll((getHeading() + 38), 50, 1.45);
 	await delay(1)
-
+	setMainLed({ r: 255, g: 0, b: 0 });
 
 	// Programmer: Maxwell Uppal - Sound Two Checkpoint Commit - Date:5/1/24
 	await roll((getHeading() - 90), 50, .75);
